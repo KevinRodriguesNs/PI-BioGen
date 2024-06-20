@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biogen - Cadastro</title>
+    <link rel="icon" type="image/x-icon" href="./img/logo folha.svg">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header style="background-color: #f9f9f9; margin-top: -8px">
+      <nav class="flex-container">
+        <div>
+          <img
+            class="logo-nav"
+            src="./img/logo-biogen.png"
+            alt="Logotipo Biogen"
+          />
+        </div>
+        <div>
+          <ul style="margin: auto">
+            <li class="nav-btn"><a href="index.html">Home</a></li>
+            <li class="nav-btn"><a href="quem-somos.html">Quem Somos</a></li>
+            <li class="nav-btn"><a href="solucao.html">Solução</a></li>
+            <li class="nav-btn"><a href="parceiros.html">Parceiros</a></li>
+          </ul>
+        </div>
+        <div>
+          <a href="cadastro.html" class="btn-primary">Cadastre-se</a>
+        </div>
+        <div>
+          <a class="h1-gr" style="margin-inline: 20px" href="login.html"
+            ><i class="fa fa-user" aria-hidden="true"></i
+          ></a>
+        </div>
+      </nav>
+    </header>
+    <section class="margin-block-lg respiro row-col-2">
+      <div class="form-card text-center gray-bg">
+        <form action="">
+          <h2 class="h2-gr">Cadastro de Fornecedor</h2>
+          <input
+            id="nomeRep"
+            class="form-control"
+            type="text"
+            placeholder="Nome Representante"
+            required
+          />
+          <input
+            id="nomeFan"
+            class="form-control"
+            type="text"
+            placeholder="Nome Fantasia"
+            required
+          />
+          <input
+            id="cnpj"
+            class="form-control"
+            type="text"
+            placeholder="CNPJ"
+            required
+          />
+          <input
+            id="razaoSocial"
+            class="form-control"
+            type="text"
+            placeholder="Razão Social"
+            required
+          />
+          <input
+            id="CEP"
+            class="form-control"
+            type="text"
+            placeholder="CEP"
+            required
+          />
+          <input
+            id="endereco"
+            class="form-control"
+            type="text"
+            placeholder="Endereço"
+          />
+          <input
+            id="numero"
+            class="form-control"
+            type="text"
+            placeholder="Número"
+          />
+          <input
+            id="emailFornecedor"
+            class="form-control"
+            type="text"
+            placeholder="Email"
+          />
+          <input
+            id="senha"
+            class="form-control"
+            type="text"
+            placeholder="Senha"
+            required
+          />
+
+          <br />
+
+          <input id="aceite" type="radio" required />
+          <label class="label-text" for="aceite"
+            >Eu concordo com os
+            <span style="text-decoration: underline">Termos</span></label
+          >
+
+          <br />
+
+          <button
+            type="button"
+            class="btn-primary margin-block-sm"
+            id="registrarFor"
+          >
+            REGISTRAR
+          </button>
+        </form>
+      </div>
+      <div class="form-card text-center gray-bg">
+        <form action="">
+          <h2 class="h2-gr">Cadastro Beneficiário</h2>
+          <input
+            id="numeroNis"
+            class="form-control"
+            type="text"
+            placeholder="Número do NIS"
+            required
+          />
+          <input
+            id="emailBen"
+            class="form-control"
+            type="text"
+            placeholder="Email"
+            required
+          />
+
+          <br />
+
+          <button
+            type="button"
+            class="btn-primary margin-block-sm"
+            id="registrarBen"
+          >
+            REGISTRAR
+          </button>
+        </form>
+      </div>
+    </section>
+    <footer class="respiro row-col-3">
+      <div>
+        <img
+          class="img-footer padding-img1"
+          src="./img/logo-biogen-branco.png"
+          alt=""
+        />
+        <ul class="img-footer menu-footer">
+          <li><a class="menu-footer-item" href="index.html">Home</a></li>
+          <li>
+            <a class="menu-footer-item" href="quem-somos.html">Quem Somos</a>
+          </li>
+          <li><a class="menu-footer-item" href="solucao.html">Solução</a></li>
+          <li>
+            <a class="menu-footer-item" href="parceiros.html">Parceiros</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="h2-wh">Contato</h2>
+        <br />
+        <p class="p-wh">+55 15 9 9876 9900</p>
+        <br />
+        <p class="p-wh">contato@biogen.com.br</p>
+        <br />
+        <p class="p-wh">Av. São Paulo, 1500 - Sorocaba/SP</p>
+      </div>
+      <div>
+        <h2 class="h2-wh">Redes Sociais</h2>
+        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+      </div>
+    </footer>
+
+    <script src="cadastro.js"></script>
+  </body>
+</html>
